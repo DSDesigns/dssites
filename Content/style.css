@@ -1,0 +1,2294 @@
+﻿/*===================================================*/
+/*===================================================*/
+/*             CONFIGURACION DE PAGINA               */
+/*===================================================*/
+/*===================================================*/
+
+body {
+    background-color: white;
+}
+
+a {
+    color: white;
+}
+#cont_hierbas, #cont_condimentos {
+    background-color: rgb(221, 221, 221);
+}
+.pst {
+    position: relative;
+}
+#BoximgHerb, #BoximgCond, #imgLogoText {
+    display: none;
+}
+.hidderbox {
+    display: none;
+}
+/*
+.clor {
+    background-color: red;
+}
+*/
+.imgHerb {
+    top: 15px;
+    left: 20px;
+}
+/*=====================*/
+/*       HEADER        */
+/*=====================*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.bg-dark {
+    background-color: rgb(22, 19, 19)!important;
+}
+.nav-link {
+    text-align: left;
+}
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+/*===================================================*/
+
+
+
+/*===================================================*/
+/*            XS EXTRA SMALL SCREEN PHONES           */
+/*===================================================*/
+@media (min-width: 100px) and (max-width: 390px){
+
+/*==============================*/
+/*   CONFIGURACION DE PAGINA    */
+/*==============================*/
+.continitial {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(45, 194, 0);
+    opacity: 0.5;
+}
+.ctn-btn {
+    height: 150px;
+    position: relative;
+    top: 25px;
+    padding: 0px;
+    background-color: rgb(251, 142, 0);
+}
+
+/*······························*/
+/*     CONTENIDO DE INICIO      */
+/*······························*/
+
+
+
+/*······························*/
+/*     HIERBAS INFORMATION      */
+/*              &               */
+/*   CONDIMENTOS INFORMATION    */
+/*······························*/
+#cont_hierbas, #cont_condimentos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 230px;
+    width: 100%;
+}
+#BoxtextHerb, #BoxtextCond {
+    top: 10px;
+    height: 210px;
+}
+#titleHerb, #titleCond {
+    height: 25px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 35px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#textHerb, #textCond {
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+/*------ BOXES HIERBAS ------- */
+#box_hierbas {
+    margin-bottom: 5%;
+    height: 390px;
+    width: 100%;
+    background-color: gray;
+}
+#cont_box0 {
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    background-color: rgb(251, 38, 0);
+}
+.box0 {
+    width: 100%;
+    height: 340px;
+    background-color: teal;
+}
+#box2, #box3, #box4 {
+    display: none;
+}
+#cont_boxText0 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(218, 255, 9);
+    text-align: center;
+}
+.boxText {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: green;
+}
+#boxT2, #boxT3, #boxT4 {
+    display: none;
+}
+#bext1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+/*------ BOXES CONDIMENTOS ------- */
+#box_condimentos {
+    margin-bottom: 5%;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(255, 0, 34);
+}
+#boxbaseCond1 {
+    background-color: rgb(0, 255, 157);
+    height: 225px;
+    width: 100%;
+}
+#boxbaseCond2 {
+    background-color: rgb(225, 0, 255);
+    height: 225px;
+    width: 100%;
+}
+
+/*···················*/
+/*   BOX NOSOTROS    */
+/*···················*/
+#box_about {
+    background-color: indigo;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#logo_contain {
+    background-color: red;
+    height: 180px;
+    width: 90%;
+    margin-left: 5%;
+    top: 10px;
+}
+#imgLogo {
+    width: 80%;
+    height: 160px;
+    top: 10px;
+    margin-left: 10%;
+    background-color: rgb(0, 104, 224);
+}
+#imgLgText {
+    display: none;
+}
+/*···················*/
+/*   BOX NETWORK     */
+/*···················*/
+#box_socialnet {
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#socialinks {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.imgSNet {
+    top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.imgsNetSize {
+    width: 22px;
+    height: 22px;
+}
+#registerbox {
+    margin-top: 10px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+#titleBoxReg {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: black;
+}
+#formInput {
+    position: relative;
+    top: 10px;
+}
+#inputReg {
+    width: 50%;
+    height: 25px;
+    font-size: 10px;
+    padding-left: 5px;
+    color: rgb(71, 71, 71);
+    background-color: rgb(223, 223, 223);
+    border-color: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#inputBtn {
+    height: 25px;
+    width: 30%;
+    font-size: 10px;
+    background-color: rgb(223, 223, 223);
+    border-color: transparent;
+    border-radius: 15px;
+}
+
+/*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+
+}
+@media (min-width: 391px) and (max-width: 575px){
+
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 800px;
+        background-color: rgb(122, 50, 255);
+    }
+    
+    .ctn-btn {
+        height: 150px;
+        position: relative;
+        top: 25px;
+        padding: 0px;
+    }
+    
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 220px;
+        width: 100%;
+    }
+    #titleHerb, #titleCond {
+        height: 25px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 35px;
+        font-family: "Poppins", sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    #BoxtextHerb,#BoxtextCond {
+        top: 10px;
+        height: 200px;
+    }
+    #textHerb, #textCond {
+        height: 135px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 490px;
+        width: 100%;
+        background-color: gray;
+    }
+    #cont_box0 {
+        width: 100%;
+        height: 440px;
+        text-align: center;
+        background-color: rgb(251, 38, 0);
+    }
+    .box0 {
+        width: 100%;
+        height: 440px;
+        background-color: teal;
+    }
+    #box2, #box3, #box4 {
+        display: none;
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rosybrown;
+        text-align: center;
+    }
+    .boxText {
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        background-color: green;
+    }
+    #boxT2, #boxT3, #boxT4 {
+        display: none;
+    }
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 450px;
+        width: 100%;
+        background-color: rgb(255, 0, 34);
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: indigo;
+        height: 250px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 230px;
+        width: 90%;
+        margin-left: 5%;
+        top: 10px;
+    }
+    #imgLogo {
+        width: 90%;
+        height: 210px;
+        top: 10px;
+        margin-left: 5%;
+        background-color: rgb(0, 104, 224);
+    }
+    #imgLgText {
+        display: none;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .imgsNetSize {
+        width: 32px;
+        height: 32px;
+    }
+    #registerbox {
+        margin-top: 10px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 10px;
+    }
+    #inputReg {
+        width: 55%;
+        height: 30px;
+        font-size: 13px;
+        padding-left: 20px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 30px;
+        width: 30%;
+        font-size: 13px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+/*===================================================*/
+/*===================================================*/
+
+/*===================================================*/
+/*              SM SMALL SCREEN PHONES               */
+/*===================================================*/
+@media (min-width: 576px) and (max-width: 767px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 1050px;
+        background-color: deeppink;
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 380px;
+        width: 100%;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 15px;
+        height: 350px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        top: 60px;
+        font-family: "Poppins", sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 150px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 100px;
+        font-size: 25px;
+        text-align: center;
+    }
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 15%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    #cont_box0 {
+        width: 100%;
+        height: 440px;
+        text-align: center;
+        background-color: rgb(251, 38, 0);
+    }
+    .box0 {
+        width: 70%;
+        height: 440px;
+        border-right: rgb(0, 0, 0) 3px solid;
+        background-color: teal;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #box2, #box3, #box4 {
+        display: none;
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rosybrown;
+        text-align: center;
+    }
+    .boxText {
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        background-color: green;
+    }
+    #boxT2, #boxT3, #boxT4 {
+        display: none;
+    }
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 450px;
+        width: 100%;
+        background-color: rgb(124, 46, 57);
+        opacity: 0.4;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 320px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 300px;
+        width: 90%;
+        margin-left: 5%;
+        top: 10px;
+    }
+    #imgLogo {
+        width: 80%;
+        height: 280px;
+        top: 10px;
+        margin-left: 10%;
+        background-color: rgb(0, 104, 224);
+    }
+    #imgLgText {
+        display: none;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .imgsNetSize {
+        width: 32px;
+        height: 32px;
+    }
+    #registerbox {
+        margin-top: 20px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 17px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 20px;
+    }
+    #inputReg {
+        width: 55%;
+        height: 40px;
+        font-size: 17px;
+        padding-left: 25px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 40px;
+        width: 30%;
+        font-size: 17px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+/*===================================================*/
+/*===================================================*/
+
+/*===================================================*/
+/*              MD MEDIUM SCREEN TABLETS             */
+/*===================================================*/
+@media (min-width: 768px) and (max-width: 991px){
+/*==============================*/
+/*   CONFIGURACION DE PAGINA    */
+/*==============================*/
+.continitial {
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 1050px;
+    background-color: rgb(0, 104, 224);
+}
+
+/*······························*/
+/*     CONTENIDO DE INICIO      */
+/*······························*/
+
+
+
+/*······························*/
+/*     HIERBAS INFORMATION      */
+/*              &               */
+/*   CONDIMENTOS INFORMATION    */
+/*······························*/
+#cont_hierbas, #cont_condimentos {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 330px;
+    width: 100%;
+}
+
+#BoximgHerb, #BoximgCond {
+    display: block;
+    height: 275px;
+    top: 30px;
+}
+
+#BoxtextHerb, #BoxtextCond {
+    top: 30px;
+    height: 275px;
+}
+
+#titleHerb, #titleCond {
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#textHerb, #textCond {
+    height: 170px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+/*------ BOXES HIERBAS ------- */
+#box_hierbas {
+    margin-bottom: 10%;
+    height: 440px;
+    width: 100%;
+    background-color: rgb(71, 71, 56);
+}
+@media (min-width: 768px) and (max-width: 809px){
+    #cont_box0 {
+        width: 100%;
+        height: 440px;
+        background-color: rgb(251, 38, 0);
+    }
+    .box0 {
+        width: 99%;
+        height: 440px;
+        border-right: rgb(0, 0, 0) 3px solid;
+        background-color: teal;
+        float: left;
+    }
+    #box3, #box4 {
+        display: none;
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rosybrown;
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    #boxT3, #boxT4 {
+        display: none;
+    }
+}
+@media (min-width: 810px) and (max-width: 991px){
+    #cont_box0 {
+        width: 100%;
+        height: 440px;
+        background-color: rgb(251, 38, 0);
+    }
+    .box0 {
+        width: 99%;
+        height: 440px;
+        border-right: rgb(0, 0, 0) 3px solid;
+        background-color: teal;
+        float: left;
+    }
+    #box3, #box4 {
+        display: none;
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rosybrown;
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    #boxT3, #boxT4 {
+        display: none;
+    }
+}
+/*------ BOXES CONDIMENTOS ------- */
+#box_condimentos {
+    margin-bottom: 5%;
+    height: 225px;
+    width: 100%;
+}
+#boxbaseCond1 {
+    background-color: rgb(0, 255, 157);
+    height: 225px;
+    width: 100%;
+}
+#boxbaseCond2 {
+    background-color: rgb(225, 0, 255);
+    height: 225px;
+    width: 100%;
+}
+
+/*···················*/
+/*   BOX NOSOTROS    */
+/*···················*/
+#box_about {
+    background-color: rgb(90, 61, 110);
+    height: 340px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#logo_contain {
+    background-color: red;
+    height: 320px;
+    width: 90%;
+    margin-left: 5%;
+    top: 10px;
+}
+#imgLogo {
+    height: 300px;
+    top: 10px;
+    background-color: rgb(0, 104, 224);
+    float: left;
+}
+#imgLgText {
+    height: 300px;
+    float: left;
+    top: 10px;
+    text-align: center;
+    background-color: rgb(218, 255, 9);
+    padding-top: 10%;
+}
+#titleAbout {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.pxta {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#pxta1 {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+#pxta2 {
+    display: none;
+}
+/*···················*/
+/*   BOX NETWORK     */
+/*···················*/
+#box_socialnet {
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#socialinks {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.imgSNet {
+    top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.imgsNetSize {
+    width: 32px;
+    height: 32px;
+}
+#registerbox {
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+#titleBoxReg {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+#formInput {
+    position: relative;
+    top: 20px;
+}
+#inputReg {
+    width: 55%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 45px;
+    color: rgb(71, 71, 71);
+    background-color: rgb(223, 223, 223);
+    border-color: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#inputBtn {
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    background-color: rgb(223, 223, 223);
+    border-color: transparent;
+    border-radius: 15px;
+}
+#inputBtn:hover {
+    border-color: rgb(60, 90, 56);
+    background-color: rgb(230, 230, 230);
+}
+/*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+/*===================================================*/
+/*===================================================*/
+
+/*===================================================*/
+/*          LG lARGE SCREEN PC PORTATIL             */
+/*===================================================*/
+@media (min-width: 992px) and (max-width: 1199px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(0, 251, 176);
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        height: 350px;
+        width: 100%;
+    }
+    #BoximgHerb, #BoximgCond {
+        display: block;
+        height: 290px;
+        top: 30px;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 30px;
+        height: 290px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 170px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 50px;
+        font-size: 22px;
+        text-align: center;
+    }
+    /*------ BOXES ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    @media (min-width: 992px) and (max-width: 1149px){
+        #cont_box0 {
+            width: 100%;
+            height: 390px;
+            background-color: rgb(50, 10, 124);
+        }
+        .box0 {
+            width: 99%;
+            height: 440px;
+            border-right: rgb(0, 0, 0) 3px solid;
+            background-color: teal;
+            float: left;
+        }
+        #box4 {
+            display: none;
+        }
+        #cont_boxText0 {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(251, 142, 0);
+        }
+        .boxText {
+            height: 50px;
+            float: left;
+            padding-top: 10px;
+            background-color: green;
+            text-align: center;
+        }
+        #boxT4 {
+            display: none;
+        }
+    }
+    @media (min-width: 1150px) and (max-width: 1199px){
+        #cont_box0 {
+            width: 100%;
+            height: 390px;
+            background-color: rgb(50, 10, 124);
+        }
+        .box0 {
+            width: 99%;
+            height: 440px;
+            border-right: rgb(0, 0, 0) 3px solid;
+            background-color: teal;
+            float: left;
+        }
+        #box4 {
+            display: none;
+        }
+        #cont_boxText0 {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(251, 142, 0);
+        }
+        .boxText {
+            height: 50px;
+            float: left;
+            padding-top: 10px;
+            background-color: green;
+            text-align: center;
+        }
+        #boxT4 {
+            display: none;
+        }
+    }
+    /*------ BOXES ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    .hidderbox {
+        display: block;
+    }
+    #boxbaseCond3 {
+        background-color: rgb(0, 4, 255);
+        height: 225px;
+        width: 100%;
+    }
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 390px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 370px;
+        width: 100%;
+        top: 10px;
+    }
+    #imgLogo {
+        height: 300px;
+        top: 30px;
+        background-color: rgb(0, 104, 224);
+        float: left;
+    }
+    #imgLgText {
+        height: 300px;
+        float: left;
+        top: 30px;
+        text-align: center;
+        background-color: rgb(218, 255, 9);
+        padding-top: 5%;
+    }
+    #titleAbout {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .pxta {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    #pxta1 {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+    }
+    #pxta2 {
+        width: 100%;
+        height: 75px;
+        margin-top: 5px;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .imgsNetSize {
+        width: 46px;
+        height: 46px;
+    }
+    #registerbox {
+        margin-top: 35px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 20px;
+    }
+    #inputReg {
+        width: 55%;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 45px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 50px;
+        width: 15%;
+        font-size: 20px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+/*===================================================*/
+/*===================================================*/
+    
+/*===================================================*/
+/*           XL EXTRA LARGE SCREEN DESKTOP           */
+/*===================================================*/
+@media (min-width: 1200px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(47, 47, 47);
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 5%;
+        margin-bottom: 1%;
+        height: 390px;
+        width: 100%;
+    }
+    #BoximgHerb, #BoximgCond {
+        display: block;
+        height: 330px;
+        top: 30px;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 30px;
+        height: 330px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 170px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /*================*/
+    /*================*/
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    /*================*/
+    /*================*/
+    /*================*/
+    #cont_box0 {
+        width: 100%;
+        height: 390px;
+        text-align: center;
+        background-color: rgb(10, 13, 192);
+    }
+    .box0 {
+        width: 99%;
+        height: 440px;
+        border-right: rgb(0, 0, 0) 3px solid;
+        background-color: teal;
+        float: left;
+    }
+    /*================*/
+    /*================*/
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(251, 142, 0);
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    /*================*/
+    /*================*/
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 250px;
+        width: 100%;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    .hidderbox {
+        display: block;
+    }
+    #boxbaseCond3 {
+        background-color: rgb(0, 4, 255);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond4 {
+        background-color: rgb(255, 238, 0);
+        height: 225px;
+        width: 100%;
+    }
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 400px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 380px;
+        width: 100%;
+        top: 10px;
+    }
+    #imgLogo {
+        height: 300px;
+        top: 30px;
+        background-color: rgb(0, 104, 224);
+        float: left;
+    }
+    #imgLgText {
+        height: 300px;
+        float: left;
+        top: 30px;
+        text-align: center;
+        background-color: rgb(218, 255, 9);
+        padding-top: 3%;
+    }
+    #titleAbout {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .pxta {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-left: 5%;
+        margin-right: 5%;       
+        width: 90%;
+        height: 70px;
+    }
+    #pxta1 {
+        margin-top: 20px;
+    }
+    #pxta2 {
+        margin-top: 5px;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .imgsNetSize {
+        width: 46px;
+        height: 46px;
+    }
+    #registerbox {
+        margin-top: 35px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 20px;
+    }
+    #inputReg {
+        width: 45%;
+        height: 50px;
+        font-size: 18px;
+        padding-left: 45px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 50px;
+        width: 15%;
+        font-size: 18px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+@media (min-width: 1300px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(251, 0, 0);
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 5%;
+        margin-bottom: 1%;
+        height: 390px;
+        width: 100%;
+    }
+    #BoximgHerb, #BoximgCond {
+        display: block;
+        height: 330px;
+        top: 30px;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 30px;
+        height: 330px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 170px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    #cont_box0 {
+        width: 100%;
+        height: 390px;
+        background-color: rgb(35, 0, 100);
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(251, 142, 0);
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    /*······························*/
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 250px;
+        width: 100%;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    .hidderbox {
+        display: block;
+    }
+    #boxbaseCond3 {
+        background-color: rgb(0, 4, 255);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond4 {
+        background-color: rgb(255, 238, 0);
+        height: 225px;
+        width: 100%;
+    }
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 400px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 380px;
+        width: 100%;
+        top: 10px;
+    }
+    #imgLogo {
+        height: 300px;
+        top: 30px;
+        background-color: rgb(0, 104, 224);
+        float: left;
+    }
+    #imgLgText {
+        height: 300px;
+        float: left;
+        top: 30px;
+        text-align: center;
+        background-color: rgb(218, 255, 9);
+        padding-top: 1%;
+    }
+    #titleAbout {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .pxta {
+        font-family: sans-serif;
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;      
+        width: 90%;
+        height: 80px;
+    }
+    #pxta1 {
+        height: 70px;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .imgsNetSize {
+        width: 46px;
+        height: 46px;
+    }
+    #registerbox {
+        margin-top: 35px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 20px;
+    }
+    #inputReg {
+        width: 35%;
+        height: 50px;
+        font-size: 18px;
+        padding-left: 45px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 50px;
+        width: 15%;
+        font-size: 18px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+@media (min-width: 1600px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(255, 172, 124);
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 5%;
+        margin-bottom: 1%;
+        height: 390px;
+        width: 100%;
+    }
+    #BoximgHerb, #BoximgCond {
+        display: block;
+        height: 330px;
+        top: 30px;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 30px;
+        height: 330px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 170px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    #cont_box0 {
+        width: 100%;
+        height: 390px;
+        background-color: rgb(143, 82, 255);
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(251, 142, 0);
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    /*······························*/
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 250px;
+        width: 100%;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    .hidderbox {
+        display: block;
+    }
+    #boxbaseCond3 {
+        background-color: rgb(0, 4, 255);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond4 {
+        background-color: rgb(255, 238, 0);
+        height: 225px;
+        width: 100%;
+    }    
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 400px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 380px;
+        width: 100%;
+        top: 10px;
+    }
+    #imgLogo {
+        height: 350px;
+        top: 15px;
+        background-color: rgb(0, 104, 224);
+        float: left;
+    }
+    #imgLgText {
+        height: 350px;
+        float: left;
+        top: 15px;
+        text-align: center;
+        background-color: rgb(218, 255, 9);
+        padding-top: 3%;
+    }
+    #titleAbout {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .pxta {
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;      
+        width: 80%;
+        height: 85px;
+    }
+    #pxta1 {
+        margin-top: 20px;
+    }
+    #pxta2 {
+        margin-top: 5px;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 150px;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .imgsNetSize {
+        width: 46px;
+        height: 46px;
+    }
+    #registerbox {
+        margin-top: 35px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 20px;
+    }
+    #inputReg {
+        width: 35%;
+        height: 50px;
+        font-size: 18px;
+        padding-left: 45px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 50px;
+        width: 15%;
+        font-size: 18px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+@media (min-width: 1800px){
+    /*==============================*/
+    /*   CONFIGURACION DE PAGINA    */
+    /*==============================*/
+    .continitial {
+        position: relative;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(213, 0, 251);
+    }
+    
+    /*······························*/
+    /*     CONTENIDO DE INICIO      */
+    /*······························*/
+    
+    
+    
+    /*······························*/
+    /*     HIERBAS INFORMATION      */
+    /*              &               */
+    /*   CONDIMENTOS INFORMATION    */
+    /*······························*/
+    #cont_hierbas, #cont_condimentos {
+        margin-top: 5%;
+        margin-bottom: 1%;
+        height: 390px;
+        width: 100%;
+    }
+    #BoximgHerb, #BoximgCond {
+        display: block;
+        height: 330px;
+        top: 30px;
+    }
+    #BoxtextHerb, #BoxtextCond {
+        top: 30px;
+        height: 330px;
+    }
+    #titleHerb, #titleCond {
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+    #textHerb, #textCond {
+        height: 170px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    /*------ BOXES HIERBAS ------- */
+    #box_hierbas {
+        margin-bottom: 5%;
+        height: 440px;
+        width: 100%;
+        background-color: rgb(71, 71, 56);
+    }
+    #cont_box0 {
+        width: 100%;
+        height: 390px;
+        text-align: center;
+        background-color: rgb(61, 211, 47);
+    }
+    #cont_boxText0 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(251, 142, 0);
+    }
+    .boxText {
+        height: 50px;
+        float: left;
+        padding-top: 10px;
+        background-color: green;
+        text-align: center;
+    }
+    /*······························*/
+    /*------ BOXES CONDIMENTOS ------- */
+    #box_condimentos {
+        margin-bottom: 5%;
+        height: 250px;
+        width: 100%;
+    }
+    #boxbaseCond1 {
+        background-color: rgb(0, 255, 157);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond2 {
+        background-color: rgb(225, 0, 255);
+        height: 225px;
+        width: 100%;
+    }
+    .hidderbox {
+        display: block;
+    }
+    #boxbaseCond3 {
+        background-color: rgb(0, 4, 255);
+        height: 225px;
+        width: 100%;
+    }
+    #boxbaseCond4 {
+        background-color: rgb(255, 238, 0);
+        height: 225px;
+        width: 100%;
+    }
+    /*···················*/
+    /*   BOX NOSOTROS    */
+    /*···················*/
+    #box_about {
+        background-color: rgb(90, 61, 110);
+        height: 450px;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #logo_contain {
+        background-color: red;
+        height: 430px;
+        width: 100%;
+        top: 10px;
+    }
+    #imgLogo {
+        height: 400px;
+        top: 15px;
+        background-color: rgb(0, 104, 224);
+        float: left;
+    }
+    #imgLgText {
+        height: 400px;
+        float: left;
+        top: 15px;
+        background-color: rgb(218, 255, 9);
+    }
+    #titleAbout {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .pxta {
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;     
+        width: 80%;
+        height: 85px;
+    }
+    #pxta1 {
+        margin-top: 20px;
+    }
+    #pxta2 {
+        margin-top: 5px;
+    }
+    /*···················*/
+    /*   BOX NETWORK     */
+    /*···················*/
+    #box_socialnet {
+        height: 250px;
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    #socialinks {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    .imgSNet {
+        top: 10px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .imgsNetSize {
+        width: 32px;
+        height: 32px;
+    }
+    #registerbox {
+        margin-top: 40px;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    #titleBoxReg {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: black;
+    }
+    #formInput {
+        position: relative;
+        top: 30px;
+    }
+    #inputReg {
+        width: 35%;
+        height: 50px;
+        font-size: 18px;
+        padding-left: 45px;
+        color: rgb(71, 71, 71);
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #inputBtn {
+        height: 50px;
+        width: 15%;
+        font-size: 18px;
+        background-color: rgb(223, 223, 223);
+        border-color: transparent;
+        border-radius: 15px;
+    }
+    #inputBtn:hover {
+        border-color: rgb(60, 90, 56);
+        background-color: rgb(230, 230, 230);
+    }
+    /*=============*/
+/*=============*/
+footer {
+    width: 100%;
+}
+#footbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(22, 19, 19);
+    text-align: center;
+}
+#textfoot_1 {
+    position: relative;
+    top: 8px;
+    font-size: 12px;
+    color: white;
+}
+}
+/*===================================================*/
+/*===================================================*/
+   
